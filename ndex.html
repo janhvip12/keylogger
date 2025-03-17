@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KeyLogger</title>
+</head>
+<style>
+  h1{
+    border: 2px solid rgb(16, 16, 16);
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #left,#right{
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(126, 177, 253);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+.btn-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+button{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+</style>
+<body>
+
+  <div class="container">
+
+    <h1>KeyLogger</h1>
+    <p>Project made by Janhvi Pawar</p>
+
+    <div class="btn-container">
+      <button id="start">Start Logging Keypress</button>
+      <button id="stop">Stop Logging Keypress</button>
+    </div>
+
+    <div class="btn-container">
+      <div id="left"></div>
+      <div id="right"></div>
+    </div>
+
+  </div>
+  <script src="/Keylogger/script.js"></script>
+</body>
+</html>
